@@ -1,6 +1,7 @@
 .item {
-    width: 350px;
-
+    width: calc(20vw - 20px);
+        max-width: 350px;
+        margin: 0 auto;
 }
 
 .item p {
