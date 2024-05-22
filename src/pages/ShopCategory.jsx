@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useContext } from "react";
+import "./css/ShopCategory.css";
+import { ShopContext } from "../context/ShopContext";
 
-const ShopCategory = () => {
+const ShopCategory = (props) => {
+  const { all_product } = useContext(ShopContext);
   return (
-    <div>
-      
+    <div className="shop-category">
+      <img src={props.banner} alt="" />
     </div>
-  )
-}
+  );
+};
 
-export default ShopCategory
+export default ShopCategory;
