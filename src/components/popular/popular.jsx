@@ -1,8 +1,8 @@
-import React from "react";
-import "./Popular.css";
-import data_product from "../Assets/data";
+import React from 'react'
+import './popular.css'
+import data_product from '../Assets/data'
 
-const Popular = () => {
+export const Popular  = () => {
   return (
     <div className="popular">
       <br></br>
@@ -21,7 +21,5 @@ const Popular = () => {
         ))}
       </div>
     </div>
-  );
-};
-
-export default Popular;
+  )
+}
